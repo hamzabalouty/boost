@@ -1,30 +1,29 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Arrowup from './components/Arrowup/Arrowup';
-import Call from './components/Call/Call';
-import Faqs from './components/Faqs/Faqs';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Images from './components/Images/Images';
-import Landing from './components/Landing/Landing';
-import News from './components/News/News';
-import Ourservices from './components/Ourservices/Ourservices';
-import Vision from './components/Vision/Vision';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Services from './pages/Services/Services';
+import Team from './pages/Team/Team';
+import Testimonials from './pages/Testimonials/Testimonials';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Landing />
-      <Call />
-      <Ourservices />
-      <Vision />
-      <Faqs />
-      <Images />
-      <News />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/services' element={<Services />}/>
+        <Route path='/team' element={<Team />}/>
+        <Route path='/testimonials' element={<Testimonials />}/>
+      </Routes>
       <Arrowup />
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 

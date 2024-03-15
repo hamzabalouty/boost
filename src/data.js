@@ -5,6 +5,10 @@ import Img4 from './assets/3con.png';
 import Img5 from './assets/4con.png';
 import Img6 from './assets/5con.png';
 
+import Img7 from './assets/attractive-young-bearded-guy-in-checkered-shirt-DYCEJ32.jpg';
+import Img8 from './assets/portrait-of-cheerful-pretty-redhead-young-woman-wi-MF8GNXT.jpg';
+import Img9 from './assets/portrait-of-happy-handsome-african-american-young-23Z2BHX.jpg';
+
 export const ourservicesData = [
     {
         id: 1,
@@ -41,5 +45,56 @@ export const ourservicesData = [
         image: Img6,
         title: 'Sales & Development',
         desc: 'Lorem ipsum dolor sit amet conse adipiscing elit ut elit tellus luctus nec ullamcorper mattis.'
+    },
+]
+
+export const testData = [
+    {
+        id: 1,
+        title: 'Cargel - Logistic Company',
+        img: Img7,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
+    },
+    {
+        id: 2,
+        title: 'Contenta - Copywriting',
+        img: Img8,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
+    },
+    {
+        id: 3,
+        title: 'Videen - Video Production',
+        img: Img9,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
+    },
+    {
+        id: 4,
+        title: 'Cargel - Logistic Company',
+        img: Img7,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
+    },
+    {
+        id: 5,
+        title: 'Contenta - Copywriting',
+        img: Img8,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
+    },
+    {
+        id: 6,
+        title: 'Videen - Video Production',
+        img: Img9,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
+        name: 'John Doe',
+        job: 'Designer'
     },
 ]

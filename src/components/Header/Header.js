@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Header.css';
+import { Link, NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
 import Img from '../../assets/Boost-Logo-1.png';
 import { IoIosArrowDown, IoMdClose } from "react-icons/io";
@@ -15,31 +16,30 @@ function Header() {
             <div className='header-logo'>
                 <img src={Img} alt='image'/>
             </div>
-            
             <ul className='header-nav'>
-                <li><a href='#' className='header-link'>Home</a></li>
+                <li><Link to='/' className='header-link'>Home</Link></li>
                 <li class="header-link active-link">Pages <IoIosArrowDown className='b-arrow-icon'/>
                 <div class="pages-list">
                     <li>
-                        <a href='#' className='header-link'>About Us</a>
+                        <Link to='/about' className='header-link'>About Us</Link>
                     </li>
                     <li>
-                        <a href='#' className='header-link'>Team</a>
+                        <Link to='/team' className='header-link'>Team</Link>
                     </li>
                     <li>
-                        <a href='#' className='header-link'>Testimonials</a>
+                        <Link to='/testimonials' className='header-link'>Testimonials</Link>
                     </li>
                     <li>
-                        <a href='#' className='header-link'>Pricing Plan</a>
+                        <Link to='/pricingplan' className='header-link'>Pricing Plan</Link>
                     </li>
                     <li>
-                        <a href='#' className='header-link'>FAQs</a>
+                        <Link to='/faqs' className='header-link'>FAQs</Link>
                     </li>
                 </div>
                 </li>
-                <li><a href='#' className='header-link'>Services</a></li>
-                <li><a href='#' className='header-link'>Blog</a></li>
-                <li><a href='#' className='header-link'>Contact</a></li>
+                <li><Link to='/services' className='header-link'>Services</Link></li>
+                <li><Link to='/blog' className='header-link'>Blog</Link></li>
+                <li><Link to='/contact' className='header-link'>Contact</Link></li>
             </ul>
             <CiMenuBurger onClick={() => setModalIsOpen(true)} className='menu-icon' />
             <Modal 
@@ -50,30 +50,30 @@ function Header() {
             <div>
               <IoMdClose onClick={() => setModalIsOpen(false)} className='close-icon-modal'/>
               <ul className='header-nav-modal'>
-                <li><a href='#' className='header-link'>Home</a></li>
+                <li><Link to='/' className='header-link'>Home</Link></li>
                 <li>
-                    <a href='#' className='header-link'>About Us</a>
+                    <Link to='/about' className='header-link'>About Us</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Team</a>
+                    <Link to='/team' className='header-link'>Team</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Testimonials</a>
+                    <Link to='/testimonials' className='header-link'>Testimonials</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Pricing Plan</a>
+                    <Link to='/pricingplan' className='header-link'>Pricing Plan</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>FAQs</a>
+                    <Link to='/faqs' className='header-link'>FAQs</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Services</a>
+                    <Link to='/services' className='header-link'>Services</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Blog</a>
+                    <Link to='/blog' className='header-link'>Blog</Link>
                 </li>
                 <li>
-                    <a href='#' className='header-link'>Contact</a>
+                    <Link to='/contact' className='header-link'>Contact</Link>
                 </li>
               </ul>
             </div>
