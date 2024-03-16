@@ -7,7 +7,7 @@ import Image from '../../assets/call-center-team-and-businessman-in-office-for-c
 const text = `
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus element maxi  posuere. Fusce ut elementum lacus. Etiam sed molestie nibh. In fau felis eu lacus elementum, quis commodo lacus pellentesque.
 `;
-const items = [
+export const items = [
   {
     key: "1",
     label: "What is business consulting?",

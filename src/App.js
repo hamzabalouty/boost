@@ -9,6 +9,8 @@ import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Team from './pages/Team/Team';
 import Testimonials from './pages/Testimonials/Testimonials';
+import Pricing from './pages/Pricing/Pricing';
+import FAQs from './pages/FAQs/FAQs';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/services' element={<Services />}/>
         <Route path='/team' element={<Team />}/>
         <Route path='/testimonials' element={<Testimonials />}/>
+        <Route path='/pricingplan' element={<Pricing />}/>
+        <Route path='/faqs' element={<FAQs />}/>
       </Routes>
       <Arrowup />
       <Footer />
