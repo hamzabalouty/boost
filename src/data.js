@@ -9,6 +9,14 @@ import Img7 from './assets/attractive-young-bearded-guy-in-checkered-shirt-DYCEJ
 import Img8 from './assets/portrait-of-cheerful-pretty-redhead-young-woman-wi-MF8GNXT.jpg';
 import Img9 from './assets/portrait-of-happy-handsome-african-american-young-23Z2BHX.jpg';
 
+import Img10 from './assets/Blog-6.jpg';
+import Img11 from './assets/Blog-4.jpg';
+import Img12 from './assets/Blog-1.jpg';
+import Img13 from './assets/Blog-5.jpg';
+import Img14 from './assets/Blog-2.jpg';
+import Img15 from './assets/Blog-3.jpg';
+
+
 export const ourservicesData = [
     {
         id: 1,
@@ -96,5 +104,44 @@ export const testData = [
         desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit ut elit tellus luctus ullamcor mattis pulvinar dapibus leo.',
         name: 'John Doe',
         job: 'Designer'
+    },
+]
+
+export const blogData = [
+    {
+        id: 1,
+        img: Img10,
+        date: 'April 11, 2023',
+        title: 'Yearly Health Check-up and Audit by Consultants to Improve Efficiency'
+    },
+    {
+        id: 2,
+        img: Img11,
+        date: 'April 11, 2023',
+        title: '9 Ways to Breaking the Ice and Reaching out for Consulting Business'
+    },
+    {
+        id: 3,
+        img: Img12,
+        date: 'April 11, 2023',
+        title: 'On Running Your Own iOS Consulting Business, with Benjamin Davis'
+    },
+    {
+        id: 4,
+        img: Img13,
+        date: 'April 11, 2023',
+        title: 'What I Learned This Year Working with our Clients on Brand Strategy'
+    },
+    {
+        id: 5,
+        img: Img14,
+        date: 'April 11, 2023',
+        title: 'What is Business Strategy and what does it have to do with Profitability?'
+    },
+    {
+        id: 6,
+        img: Img15,
+        date: 'April 11, 2023',
+        title: 'The Difference Between Business Consulting and Coaching'
     },
 ]

@@ -11,6 +11,8 @@ import Team from './pages/Team/Team';
 import Testimonials from './pages/Testimonials/Testimonials';
 import Pricing from './pages/Pricing/Pricing';
 import FAQs from './pages/FAQs/FAQs';
+import Blog from './pages/Blog/Blog';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path='/testimonials' element={<Testimonials />}/>
         <Route path='/pricingplan' element={<Pricing />}/>
         <Route path='/faqs' element={<FAQs />}/>
+        <Route path='/blog' element={<Blog />}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
       <Arrowup />
       <Footer />
