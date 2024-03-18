@@ -17,29 +17,29 @@ function Header() {
                 <img src={Img} alt='image'/>
             </div>
             <ul className='header-nav'>
-                <li><Link to='/' className='header-link'>Home</Link></li>
-                <li class="header-link active-link">Pages <IoIosArrowDown className='b-arrow-icon'/>
-                <div class="pages-list">
+                <li><NavLink to='/' className='header-link'>Home</NavLink></li>
+                <li className="header-link active-link">Pages <IoIosArrowDown className='b-arrow-icon'/>
+                <div className="pages-list">
                     <li>
-                        <Link to='/about' className='header-link'>About Us</Link>
+                        <NavLink to='/about' className='header-link'>About Us</NavLink>
                     </li>
                     <li>
-                        <Link to='/team' className='header-link'>Team</Link>
+                        <NavLink to='/team' className='header-link'>Team</NavLink>
                     </li>
                     <li>
-                        <Link to='/testimonials' className='header-link'>Testimonials</Link>
+                        <NavLink to='/testimonials' className='header-link'>Testimonials</NavLink>
                     </li>
                     <li>
-                        <Link to='/pricingplan' className='header-link'>Pricing Plan</Link>
+                        <NavLink to='/pricingplan' className='header-link'>Pricing Plan</NavLink>
                     </li>
                     <li>
-                        <Link to='/faqs' className='header-link'>FAQs</Link>
+                        <NavLink to='/faqs' className='header-link'>FAQs</NavLink>
                     </li>
                 </div>
                 </li>
-                <li><Link to='/services' className='header-link'>Services</Link></li>
-                <li><Link to='/blog' className='header-link'>Blog</Link></li>
-                <li><Link to='/contact' className='header-link'>Contact</Link></li>
+                <li><NavLink to='/services' className='header-link'>Services</NavLink></li>
+                <li><NavLink to='/blog' className='header-link'>Blog</NavLink></li>
+                <li><NavLink to='/contact' className='header-link'>Contact</NavLink></li>
             </ul>
             <CiMenuBurger onClick={() => setModalIsOpen(true)} className='menu-icon' />
             <Modal 

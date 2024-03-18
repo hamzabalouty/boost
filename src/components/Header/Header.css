@@ -89,6 +89,11 @@
     flex-direction: column;
     gap: 30px;
 }
+.header-nav .active{
+    color: #0476D9;
+}
+
+
 /* Start Rwd */
 @media screen and (max-width: 990px) {
     .header{
